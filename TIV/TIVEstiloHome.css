@@ -66,12 +66,11 @@ body{
 
 #NavegacionLogoTexto{
 	margin:auto;
-	padding-top:3px;
-	padding-bottom:3px;
+	padding-top:11px;
+	padding-bottom:11px;
 }
 
 .NavegacionBarraBoton{
-	top:-80px;
 	float:right;
 	font-size:20px;
 	letter-spacing:4px;
@@ -89,13 +88,16 @@ body{
 	margin:0;
 }
 
+.NavegacionTexto:hover{
+	background-color: #deeccc;}
+
 .NavegacionTexto{
 	margin-top:auto;
 	margin-bottom:auto;
 	padding-right:20px;
 	padding-left:20px;
-	padding-top:13px;
-	padding-bottom:13px;
+	padding-top:18px;
+	padding-bottom:18px;
 }
 
 /*Fin Navegacion*/
@@ -171,4 +173,6 @@ h1{
 	background-color: #7bb96c}
 #ColumnaElegido{
 	background-color: #8bb4db}
+
+/*Fin Recuadros*/
 }
