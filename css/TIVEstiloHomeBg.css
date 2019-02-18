@@ -1,0 +1,165 @@
+/*Aspectos Generales*/
+
+body{
+	width:100%;
+	margin:0px;
+	padding:0px;}
+
+main{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	position:inherit;}
+
+#PrincipalContenedor{
+	width: 800px;
+	margin:auto;}
+
+/*Tipografia*/
+
+body{
+	font-family:'roboto';
+	font-size:23px;
+	color:#464010;}
+
+.EsParrafo{
+	text-indent: 50px;}
+
+.EsTitulo{
+	text-indent:0px;
+	font-size: 35px;
+	color:#face54;}
+	
+/* Navegacion */
+
+	header{
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+	position: fixed;
+	top:0px;
+	height:60px;
+	width:100%;
+    z-index: 10;
+	padding:0;
+	margin:0;}
+
+#NavegacionMovil{
+	display:none;}
+
+#NavegacionLogoContenedor{
+	position: absolute;
+	width:240px;
+	height:60px;
+	margin:0;
+	text-align:center;
+	color:#face54;
+	font-weight:500;
+	font-size:30px;}
+
+#NavegacionLogoTexto{
+	margin:auto;
+	padding-top:11px;
+	padding-bottom:11px;}
+
+.NavegacionBarraBoton{
+	float:right;
+	font-size:20px;
+	letter-spacing:4px;
+	font-weight:lighter;
+	z-index:10;
+	margin:auto;
+	height:60px;}	
+
+.NavegacionBoton{
+
+    text-decoration:none;
+	color:black;
+	height:60px;
+	margin:0;}
+
+.NavegacionTexto:hover{
+	background-color: #deeccc;}
+
+.NavegacionTexto{
+	margin-top:auto;
+	margin-bottom:auto;
+	padding-right:20px;
+	padding-left:20px;
+	padding-top:18px;
+	padding-bottom:18px;}
+
+/*Fin Navegacion*/
+
+/*Inicio Home*/
+
+#Inicio{
+	margin-top:60px;
+	width:100%;
+	height:60vh;
+	padding: 1px;
+	background-color: #93c572;}
+
+h1{
+	text-align: center;
+	margin-top:20vh;
+	color:#face54;}
+
+#InicioOpcionesContenedor{
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;}
+
+.InicioOpciones{
+	position:absolute;
+	width:200px;
+	height:40px;
+	background-color: #ffffff;}
+	
+#InicioOpcionA{
+	left:27%;}
+
+#InicioOpcionB{
+	right:27%;}
+
+.InicioOpcionesTexto{
+	margin-top: 6px;
+	margin-bottom: auto;
+	text-align: center;}
+
+/*Fin Home*/
+
+/*Inicio Pagina Sabana*/
+
+/*Recuadros*/
+
+.Columna{
+	display:inline-block;
+	width:200px;
+	height:200px;
+	padding:5px;
+	text-align: center;}
+
+.ColumnaImagen{
+	width:140px;
+	height:140px;
+	margin: auto;}
+
+.ColumnaTexto{
+	margin-top: 0px;}
+
+.Columna1{
+	float: left}
+	.Columna2{
+		margin-left: 10.6%;
+		margin-right:10.6%;}
+		.Columna3{
+			float: right;}
+
+#ColumnaValidado{
+	background-color: #ee855c;}
+#ColumnaUtilizado{
+	background-color: #7bb96c}
+#ColumnaElegido{
+	background-color: #8bb4db}
+
+/*Fin Recuadros*/
