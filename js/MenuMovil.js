@@ -1,12 +1,8 @@
-$(document).ready(function(){
-	$("#menunav").click(function(){
-		$('#NavegacionBarra').toggleClass('closed')
-	});
-	
-		$('main').click(function(){
-		$('#NavegacionBarra').addClass('closed')
-	});
-		$('#NavegacionBarra').click(function(){
-		$('#NavegacionBarra').addClass('closed')
-	});
-});
+function menu() {
+	var element = document.getElementById("NavegacionBarra");
+	element.classList.toggle("closed");}
+
+function menucerrar() {
+	var element = document.getElementById("NavegacionBarra");
+	element.classList.add("closed");}
+

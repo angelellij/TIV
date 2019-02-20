@@ -3,25 +3,20 @@
 <html>
 
     <head>
-		
         <meta charset="UTF-8">
 		<title> TIV </title>
         <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloHomeBg.css">
         <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloHomeS.css">
-        <link rel="js" href="js/MenuMovil.js">
-        <link rel="jquery" href="js/jquery.js">
+        <script src="js/MenuMovil.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=0.6"/>
-				
-		<script src="jquery.js"> </script>
-		<script src="TIV.js"> </script>
 	</head>
 	
 	<body>
 		<header>
 			<div id='NavegacionMovil'>
-				<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
-				<img id="NavegacionImagenMenu" src="img/menu.png"/>
-				<div id='NavegacionBarra' class="closed">
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
 							<div class=divi></div>
 						<a class="NavegacionBoton" href="#Inicio"><p class='NavegacionTexto'>Inicio</p></a>
 						<div class=divitydiv><div class=divi></div></div>
@@ -47,12 +42,12 @@
 			</div>
 		</header>
 		
-		<main>
+		<main onclick="menucerrar()">
 		    <div id=Inicio>
                 <h1>Test de Intereses Vocacionales</h1>
                 <div id=InicioOpcionesContenedor>
                     <div id=InicioOpcionA class=InicioOpciones><p class=InicioOpcionesTexto>Ir al test</p></div>
-                    <div id=InicioOpcionB class=InicioOpciones><p class=InicioOpcionesTexto>Conocer más</p></div>
+                   <a href='#Conocer'> <div id=InicioOpcionB class=InicioOpciones><p class=InicioOpcionesTexto>Conocer más</p></div></a>
                 </div>
             </div>
             <div id=PrincipalContenedor>

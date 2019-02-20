@@ -29,6 +29,10 @@ body{
 	text-indent:0px;
 	font-size: 35px;
 	color:#face54;}
+
+a{
+	text-decoration: none;
+	color:#464010;}
 	
 /* Navegacion */
 
@@ -137,7 +141,8 @@ h1{
 	width:200px;
 	height:200px;
 	padding:5px;
-	text-align: center;}
+	text-align: center;
+	border-radius: 20px;}
 
 .ColumnaImagen{
 	width:140px;
