@@ -21,14 +21,14 @@
 							<div class=divi></div>
 						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Conocer el test</p></a>
 						<div class=divitydiv><div class=divi></div></div>
-						<a class="NavegacionBoton" href="SignIn.html"><p class='NavegacionTexto'>Mi sesión</p></a>
+						<a class="NavegacionBoton" href="NuevoTestDatos.html"><p class='NavegacionTexto'>Mi sesión</p></a>
 						<div class=divi></div></div>
 				</div>
 			</div>
 			<div id='NavegacionPC'>
 					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
 					<div>
-                        <a class="NavegacionBoton" href="SignIn.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
+                        <a class="NavegacionBoton" href="NuevoTestDatos.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
                         <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
 					</div>
 			</div>
@@ -41,9 +41,9 @@
                     <form action=php/SignIn.php method="post">
                         <div class="Columna Columna1">
                             <p>Usuario (e-mail):</p>
-                            <input type="text" placeholder="direccion@mail.com">
+                            <input type="email" placeholder="direccion@mail.com">
                             <p>Contraseña:</p>
-                            <input type=text placeholder="********">
+                            <input type=password placeholder="********">
                         </div>
                         <button type="submit">Entrar</button>
                     </form>
@@ -53,15 +53,15 @@
                         <form action=php/Registrarse.php method="post">
                             <div class="Columna Columna1">
                                 <p>e-mail:</p>
-                                <input type="text" placeholder="direccion@mail.com">
+                                <input type="email" placeholder="direccion@mail.com">
                                 <p>Repetir e-mail:</p>
-                                <input type="text" placeholder="direccion@mail.com">
+                                <input type="email" placeholder="direccion@mail.com">
                             </div>
                             <div class="Columna Columna3">
                                 <p>Contraseña:</p>
-                                <input type="text" placeholder="********">
+                                <input type="password" placeholder="********">
                                 <p>Repetir contraseña:</p>
-                                <input type="text" placeholder="********">
+                                <input type="password" placeholder="********">
                             </div>
                             <button type="submit">Registrarme</button>
                         </form>

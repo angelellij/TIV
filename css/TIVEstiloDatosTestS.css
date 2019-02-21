@@ -15,6 +15,8 @@ main{
 	width:400px;
 	margin:auto;}
 
+.PC{display: none;}
+
 /*Tipografia*/
 
 body{
@@ -117,22 +119,9 @@ header{
 
 /*Recuadros*/
 
-#RecuadrosSignIn{margin-bottom: 50px;}
-
-.Columna{
-	margin-left: auto;
-	margin-right: auto;
-	padding:20px;
-	text-align: center;
-	border-radius: 20px;}
-
-.ColumnaTexto{
-	margin-top: 0px;}
-
-.Columna2{
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+#RecuadrosSignIn{
+	margin-top:150px;
+	margin-bottom: 200px;}
 
 input{ 
 	font-size: 15px;
@@ -146,7 +135,8 @@ button:hover{
 	cursor: pointer;}
 
 button{
-	margin-top: 20px;
+	float: right;
+	margin-top: 40px;
 	font-family: 'roboto';
 	color: #fac32d;
 	font-size: 20px;
@@ -155,5 +145,9 @@ button{
 	border-width: 1px;
 	border-radius: 4px;
 	border-color: lightgrey;}
+
+.CheckboxTexto{display: inline;}
+
+.TipoCheckbox{width:20px;}
 
 /*Fin Recuadros*/
