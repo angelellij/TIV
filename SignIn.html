@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<title> TIV </title>
+        <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloSignInBg.css">
+        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloSignInS.css">
+        <script src="js/MenuMovil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+	</head>
+	
+	<body>
+		<header>
+			<div id='NavegacionMovil'>
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
+							<div class=divi></div>
+						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Conocer el test</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="SignIn.html"><p class='NavegacionTexto'>Mi sesión</p></a>
+						<div class=divi></div></div>
+				</div>
+			</div>
+			<div id='NavegacionPC'>
+					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+					<div>
+                        <a class="NavegacionBoton" href="SignIn.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
+                        <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
+					</div>
+			</div>
+		</header>
+        
+        <main  id=PrincipalContenedor onclick="menucerrar()">
+            <section id=RecuadrosSignIn>
+                <div class="Columna Columna1">
+                    <h1 id=PrimerTitulo class=EsTitulo>Sign In</h1>
+                    <form action=php/SignIn.php method="post">
+                        <div class="Columna Columna1">
+                            <p>Usuario (e-mail):</p>
+                            <input type="text" placeholder="direccion@mail.com">
+                            <p>Contraseña:</p>
+                            <input type=text placeholder="********">
+                        </div>
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
+                <div id=ColumnaRegistro class="Columna Columna3">
+                        <h2 class=EsTitulo>Registrarse</h1>
+                        <form action=php/Registrarse.php method="post">
+                            <div class="Columna Columna1">
+                                <p>e-mail:</p>
+                                <input type="text" placeholder="direccion@mail.com">
+                                <p>Repetir e-mail:</p>
+                                <input type="text" placeholder="direccion@mail.com">
+                            </div>
+                            <div class="Columna Columna3">
+                                <p>Contraseña:</p>
+                                <input type="text" placeholder="********">
+                                <p>Repetir contraseña:</p>
+                                <input type="text" placeholder="********">
+                            </div>
+                            <button type="submit">Registrarme</button>
+                        </form>
+                    </div>
+            </section>
+		</main>
+	</body>
+</html>

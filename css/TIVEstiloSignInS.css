@@ -1,0 +1,157 @@
+/*Aspectos Generales*/
+
+body{
+	width:100%;
+	margin:0px;
+	padding:0px;}
+
+main{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	position:inherit;}
+
+#PrincipalContenedor{
+	width:400px;
+	margin:auto;}
+
+/*Tipografia*/
+
+body{
+	font-family:'roboto';
+	font-size:23px;
+	color:#464010;}
+
+.EsParrafo{
+	text-indent: 50px;}
+
+.EsTitulo{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-indent:0px;
+	font-size: 35px;
+	color:#face54;}
+
+a{
+	text-decoration: none;
+	color:#464010;}
+	
+/* Navegacion */
+
+header{
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+	position: fixed;
+	top:0px;
+	height:100px;
+	width:100%;
+    z-index: 10;
+	padding:0;
+	margin:0;}
+
+#NavegacionPC{
+	display:none;}
+
+#NavegacionLogoContenedor{
+		position: absolute;
+		left:50px;
+		height:100px;
+		margin:0;
+		display:inline-block;}
+		
+#NavegacionLogoTexto{
+		margin:auto;
+		color:#face54;
+		font-weight:500;
+		font-size:50px;
+		padding-top:23px;
+		padding-bottom:23px;}
+
+#NavegacionImagenMenu{
+	float: right;
+	margin-right: 10px;
+	width:80px;
+	padding:10px;}
+	
+.closed{
+	display:none;}
+
+#NavegacionBarra{
+	position: relative;
+    top: 100px;}
+	
+.NavegacionBoton{
+	text-decoration:none;
+	text-align:center;
+	font-weight:lighter;
+	color:#72430d;}
+	
+.NavegacionTexto{
+	margin:-1px;
+	font-size:30px;
+	padding:25px;
+	background-color:white;
+	z-index:12;}
+
+.divi{
+	display:block;
+	padding:1px;
+	background-color:gray;}
+	
+.divitydiv{
+	padding-left:150px;
+	padding-right:150px;
+	background-color:white;
+	display:block;}
+
+.NavegacionBoton:active{
+	background-color:#fffbf0;}
+
+/*Fin Navegacion*/
+
+#PrimerTitulo{
+	margin-top:120px;}
+
+/*Inicio Pagina Sabana*/
+
+/*Recuadros*/
+
+.Columna{
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px;
+	text-align: center;
+	border-radius: 20px;}
+
+.ColumnaTexto{
+	margin-top: 0px;}
+
+.Columna2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+input{ 
+	font-size: 15px;
+	height:20px;
+	width:200px;
+	border-radius: 4px;
+	border-width:1px;
+	border-color: lightgrey;}
+
+button:hover{
+	cursor: pointer;}
+
+button{
+	margin-top: 20px;
+	font-family: 'roboto';
+	color: #fac32d;
+	font-size: 20px;
+	font-weight: 500;
+	background-color: white;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: lightgrey;}
+
+/*Fin Recuadros*/
