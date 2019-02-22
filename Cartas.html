@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<title> TIV </title>
+        <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloCartasBg.css">
+        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloCartasS.css">
+        <script src="js/MenuMovil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+	</head>
+	
+	<body>
+		<header>
+			<div id='NavegacionMovil'>
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
+							<div class=divi></div>
+						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Conocer el test</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="NuevoTestDatos.html"><p class='NavegacionTexto'>Mi sesión</p></a>
+						<div class=divi></div></div>
+				</div>
+			</div>
+			<div id='NavegacionPC'>
+					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+					<div>
+                        <a class="NavegacionBoton" href="NuevoTestDatos.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
+                        <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
+					</div>
+			</div>
+		</header>
+        
+        <main  id=PrincipalContenedor onclick="menucerrar()">
+            <section id=Recuadros>
+                <p class="pregunta">Esto sería un item describiendo una actividad laboral</p>
+                <form action="formulario.php" method="POST">
+                    <div class="Columna Columna1"> <button  type="button" name="nomegustaria"> <img class="imagenboton" src="img/nomegustaria.png"> </button> </div>
+                    <div class="Columna Columna2"> <button  type="button" name="indiferente"> <img class="imagenboton" src="img/indiferente.png"> </button> </div>
+                    <div class="Columna Columna3"> <button  type="button" name="megustaria"> <img class="imagenboton" src="img/megustaria.png"> </button> </div>
+                </form>
+            </section>
+		</main>
+	</body>
+</html>
