@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<title> TIV </title>
+        <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloSesionBg.css">
+        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloSesion.css">
+        <script src="js/MenuMovil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+	</head>
+	
+	<body>
+		<header>
+			<div id='NavegacionMovil'>
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
+							<div class=divi></div>
+						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Conocer el test</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="Sesion.html"><p class='NavegacionTexto'>Mi sesión</p></a>
+						<div class=divi></div></div>
+				</div>
+			</div>
+			<div id='NavegacionPC'>
+					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+					<div>
+                        <a class="NavegacionBoton" href="Sesion.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
+                        <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
+					</div>
+			</div>
+		</header>
+        
+        <main  id=PrincipalContenedor onclick="menucerrar()">
+            <section id=Contenedor>
+                <a href="NuevoTestDatos.html"><div id=BotonTest><p id=BotonTestTexto>Nuevo Test</p></div></a>
+                <div id=ContenedorTitulo><p id=TituloTexto>Evaluaciones Realizadas</p></div>
+                <div id=Recuadros>
+                    <div id="TestsHechos">
+                        <div class=Header>
+                                <div class=FilaHeader>
+                                    <div id=FechaEv class="Casilla"><p>Fecha</p></div>
+                                    <div id=Nombre class="Casilla"><p>Nombre</p></div>
+                                    <div id=Nacionalidad class="Casilla"><p>Nacionalidad</p></div>
+                                    <div id=DNI class="Casilla"><p>DNI</p></div>
+                                    <div id=FechaNac class="Casilla"><p>Fecha de Nac.</p></div>
+                                </div>
+                                <hr class=DivisorCabecera>
+                                <hr class=DivisorCabecera>
+                            </div>
+                        <div class=Evaluacion>
+                            <div class=EvaluacionFila>
+                                <div class="Casilla CasillaEstandar FechaEv"><p>22/02/2019</p></div>
+                                <div class="Casilla Nombre"><p>Javier</p></div>
+                                <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                <div class="Casilla CasillaEstandar DNI"><p>37375072</p></div>
+                                <div class="Casilla CasillaEstandar FechaNac"><p>12/03/1993</p></div>
+                            </div>
+                            <hr>
+                        </div>
+                        
+                        <div class=Evaluacion>
+                            <div class=EvaluacionFila>
+                                <div class="Casilla CasillaEstandar FechaEv"><p>24/02/2019</p></div>
+                                <div class="Casilla Nombre"><p>Camila</p></div>
+                                <div class="Casilla Nacionalidad"><p>Colombia</p></div>
+                                <div class="Casilla CasillaEstandar DNI"><p>90375562</p></div>
+                                <div class="Casilla CasillaEstandar FechaNac"><p>11/09/1992</p></div>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class=Evaluacion>
+                            <div class=EvaluacionFila>
+                                <div class="Casilla CasillaEstandar FechaEv"><p>25/02/2019</p></div>
+                                <div class="Casilla Nombre"><p>Norma</p></div>
+                                <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                <div class="Casilla CasillaEstandar DNI"><p>30402013</p></div>
+                                <div class="Casilla CasillaEstandar FechaNac"><p>11/06/1990</p></div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </section>
+		</main>
+	</body>
+</html>

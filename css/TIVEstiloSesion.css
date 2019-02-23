@@ -19,9 +19,8 @@ main{
 
 body{
 	font-family:'roboto';
-	font-size:30px;
-	color:#464010;
-	text-align: center;}
+	font-size:23px;
+	color:#464010;}
 
 .EsParrafo{
 	text-indent: 50px;}
@@ -118,24 +117,22 @@ header{
 
 /*Recuadros*/
 
-#Recuadros{
-	margin-top: 175px;
-	margin-bottom: 50px;}
+#RecuadrosSignIn{margin-bottom: 50px;}
 
 .Columna{
-	display: inline;
 	margin-left: auto;
-	margin-right: auto;}
+	margin-right: auto;
+	padding:20px;
+	text-align: center;
+	border-radius: 20px;}
 
 .ColumnaTexto{
 	margin-top: 0px;}
 
-.Columna1{
-	float: left;}
-	.Columna2{
-		margin-top: 100px;}
-		.Columna3{
-			float: right;}
+.Columna2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
 input{ 
 	font-size: 15px;
@@ -149,15 +146,14 @@ button:hover{
 	cursor: pointer;}
 
 button{
-		width: 100px;
-		height: 100px;
-		padding: 0px;
-		border-style: none;}
-	
-.imagenboton{
-			width:100px;
-			height:100px;}
-		
-form{margin-top:150px;}
+	margin-top: 20px;
+	font-family: 'roboto';
+	color: #fac32d;
+	font-size: 20px;
+	font-weight: 500;
+	background-color: white;
+	border-width: 1px;
+	border-radius: 4px;
+	border-color: lightgrey;}
 
 /*Fin Recuadros*/
