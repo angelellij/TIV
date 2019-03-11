@@ -4,9 +4,11 @@
 
     <head>
         <meta charset="UTF-8">
-		<title> TIV </title>
+        <title> TIV </title>
+        <link media='screen and (min-width:800px)' rel="stylesheet" href="css/TIVAspectosGeneralesBg.css">
+        <link media='screen and (max-width:800px)' rel="stylesheet" href="css/TIVAspectosGeneralesS.css">
         <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloSesionBg.css">
-        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloSesion.css">
+        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloSesionS.css">
         <script src="js/MenuMovil.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
         <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
@@ -36,52 +38,89 @@
         
         <main  id=PrincipalContenedor onclick="menucerrar()">
             <section id=Contenedor>
-                <a href="NuevoTestDatos.html"><div id=BotonTest><p id=BotonTestTexto>Nuevo Test</p></div></a>
+                <a href="NuevoTestDatos.html"><div id=BotonTest class=BotonAmarillo><p id=BotonTestTexto>Nuevo Test</p></div></a>
                 <div id=ContenedorTitulo><p id=TituloTexto>Evaluaciones Realizadas</p></div>
                 <div id=Recuadros>
                     <div id="TestsHechos">
                         <div class=Header>
                                 <div class=FilaHeader>
-                                    <div id=FechaEv class="Casilla"><p>Fecha</p></div>
-                                    <div id=Nombre class="Casilla"><p>Nombre</p></div>
-                                    <div id=Nacionalidad class="Casilla"><p>Nacionalidad</p></div>
-                                    <div id=DNI class="Casilla"><p>DNI</p></div>
-                                    <div id=FechaNac class="Casilla"><p>Fecha de Nac.</p></div>
+                                <div id=FechaEv class="Casilla"><p>Fecha</p></div>
+                                <div id=Nombre class="Casilla"><p>Nombre</p></div>
+                                <div id=Nacionalidad class="Casilla"><p>Nacionalidad</p></div>
+                                <div id=DNI class="Casilla"><p>DNI</p></div>
+                                <div id=FechaNac class="Casilla"><p>Fecha de Nac.</p></div>
+                            </div>
+                            <hr class=DivisorCabecera>
+                            <hr id=DivisorCabecera2 class=DivisorCabecera>
+                        </div>
+                        <div id=Evaluaciones>
+                                <a href="Informe.html"><div class=Evaluacion>
+                                <div class=EvaluacionFila>
+                                   <div class="Casilla CasillaEstandar FechaEv"><p>22/02/2019</p></div>
+                                    <div class="Casilla Nombre"><p>Javier</p></div>
+                                    <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                    <div class="Casilla CasillaEstandar DNI"><p>37375072</p></div>
+                                    <div class="Casilla CasillaEstandar FechaNac"><p>12/03/1993</p></div>
                                 </div>
-                                <hr class=DivisorCabecera>
-                                <hr class=DivisorCabecera>
-                            </div>
-                        <div class=Evaluacion>
-                            <div class=EvaluacionFila>
-                                <div class="Casilla CasillaEstandar FechaEv"><p>22/02/2019</p></div>
-                                <div class="Casilla Nombre"><p>Javier</p></div>
-                                <div class="Casilla Nacionalidad"><p>Argentina</p></div>
-                                <div class="Casilla CasillaEstandar DNI"><p>37375072</p></div>
-                                <div class="Casilla CasillaEstandar FechaNac"><p>12/03/1993</p></div>
-                            </div>
-                            <hr>
-                        </div>
-                        
-                        <div class=Evaluacion>
-                            <div class=EvaluacionFila>
-                                <div class="Casilla CasillaEstandar FechaEv"><p>24/02/2019</p></div>
-                                <div class="Casilla Nombre"><p>Camila</p></div>
-                                <div class="Casilla Nacionalidad"><p>Colombia</p></div>
-                                <div class="Casilla CasillaEstandar DNI"><p>90375562</p></div>
-                                <div class="Casilla CasillaEstandar FechaNac"><p>11/09/1992</p></div>
-                            </div>
-                            <hr>
-                        </div>
+                                <hr>
+                            </div></a>
+                            
+                            <a href="Informe.html"><div class=Evaluacion>
+                                <div class=EvaluacionFila>
+                                    <div class="Casilla CasillaEstandar FechaEv"><p>24/02/2019</p></div>
+                                    <div class="Casilla Nombre"><p>Camila</p></div>
+                                    <div class="Casilla Nacionalidad"><p>Colombia</p></div>
+                                    <div class="Casilla CasillaEstandar DNI"><p>90375562</p></div>
+                                    <div class="Casilla CasillaEstandar FechaNac"><p>11/09/1992</p></div>
+                                </div>
+                                <hr>
+                            </div></a>
 
-                        <div class=Evaluacion>
-                            <div class=EvaluacionFila>
-                                <div class="Casilla CasillaEstandar FechaEv"><p>25/02/2019</p></div>
-                                <div class="Casilla Nombre"><p>Norma</p></div>
-                                <div class="Casilla Nacionalidad"><p>Argentina</p></div>
-                                <div class="Casilla CasillaEstandar DNI"><p>30402013</p></div>
-                                <div class="Casilla CasillaEstandar FechaNac"><p>11/06/1990</p></div>
-                            </div>
-                            <hr>
+                            <a href="Informe.html"><div class=Evaluacion>
+                                <div class=EvaluacionFila>
+                                    <div class="Casilla CasillaEstandar FechaEv"><p>25/02/2019</p></div>
+                                    <div class="Casilla Nombre"><p>Norma</p></div>
+                                    <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                    <div class="Casilla CasillaEstandar DNI"><p>30402013</p></div>
+                                    <div class="Casilla CasillaEstandar FechaNac"><p>11/06/1990</p></div>
+                                </div>
+                                <hr>
+                            </div></a>
+
+                            <div id=Evaluaciones>
+                                    <a href="Informe.html"><div class=Evaluacion>
+                                    <div class=EvaluacionFila>
+                                       <div class="Casilla CasillaEstandar FechaEv"><p>22/02/2019</p></div>
+                                        <div class="Casilla Nombre"><p>Javier</p></div>
+                                        <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                        <div class="Casilla CasillaEstandar DNI"><p>37375072</p></div>
+                                        <div class="Casilla CasillaEstandar FechaNac"><p>12/03/1993</p></div>
+                                    </div>
+                                    <hr>
+                                </div></a>
+                                
+                                <a href="Informe.html"><div class=Evaluacion>
+                                    <div class=EvaluacionFila>
+                                        <div class="Casilla CasillaEstandar FechaEv"><p>24/02/2019</p></div>
+                                        <div class="Casilla Nombre"><p>Camila</p></div>
+                                        <div class="Casilla Nacionalidad"><p>Colombia</p></div>
+                                        <div class="Casilla CasillaEstandar DNI"><p>90375562</p></div>
+                                        <div class="Casilla CasillaEstandar FechaNac"><p>11/09/1992</p></div>
+                                    </div>
+                                    <hr>
+                                </div></a>
+    
+                                <a href="Informe.html"><div class=Evaluacion>
+                                    <div class=EvaluacionFila>
+                                        <div class="Casilla CasillaEstandar FechaEv"><p>25/02/2019</p></div>
+                                        <div class="Casilla Nombre"><p>Norma</p></div>
+                                        <div class="Casilla Nacionalidad"><p>Argentina</p></div>
+                                        <div class="Casilla CasillaEstandar DNI"><p>30402013</p></div>
+                                        <div class="Casilla CasillaEstandar FechaNac"><p>11/06/1990</p></div>
+                                    </div>
+                                    <hr>
+                                </div></a>
+                            
                         </div>
                     </div>
                 </div>

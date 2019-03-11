@@ -1,0 +1,60 @@
+/*Graficos*/
+
+.ContenedorGrafico{
+	width:100%;
+	height: 500px;}
+
+.BarraEncuadre{
+	margin: 0px;
+	height: 150px;
+	width:600px;
+	margin: auto;}
+
+.percentil{
+	display: inline-block;
+	height: 100%;
+	width:50px;
+	margin-left:40px;}
+
+.percentil90{
+	margin-top: 3.5%;
+	height:90%;
+	background-color:#df5d5d;}
+	.percentil80{
+		margin-top: 3.5%;
+		height:80%;
+		background-color: #df5d5d;}	
+		.percentil70{
+			margin-top: 3.5%;
+			height:70%;
+			background-color: #df5d5d;}
+			.percentil60{
+				margin-top: 3.5%;
+				height:60%;
+				background-color: #df5d5d;}
+				.percentil50{
+					height:1%;
+					background-color: #df5d5d;}
+					.percentil40{
+						height:20%;
+						background-color: #df5d5d;}
+						.percentil30{
+							height:40%;
+							background-color: #df5d5d;}
+							.percentil20{
+								height:60%;
+								background-color: #df5d5d;}
+								.percentil10{
+									height:80%;
+									background-color: #df5d5d;}
+.TextoEncuadre{
+	width:600px;
+	margin: auto;
+	margin-top:60px;
+	margin-bottom: 100px;}
+
+.TextoGraficoContenedor{
+	display: inline-block;}
+
+.TextoGrafico{
+	transform: rotate(60deg);}

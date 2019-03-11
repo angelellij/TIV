@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title> TIV </title>
+        <link media='screen and (min-width:800px)' rel="stylesheet" href="css/TIVAspectosGeneralesBg.css">
+        <link media='screen and (max-width:800px)' rel="stylesheet" href="css/TIVAspectosGeneralesS.css">
+        <link  rel="stylesheet" href="css/TIVEstiloInforme.css">
+        <script src="js/MenuMovil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+	</head>
+	
+	<body>
+		<header>
+			<div id='NavegacionMovil'>
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
+							<div class=divi></div>
+						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Conocer el test</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="Sesion.html"><p class='NavegacionTexto'>Mi sesión</p></a>
+						<div class=divi></div></div>
+				</div>
+			</div>
+			<div id='NavegacionPC'>
+					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+					<div>
+                        <a class="NavegacionBoton" href="Sesion.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Mi sesión</p></div></a>
+                        <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
+					</div>
+			</div>
+		</header>
+        
+        <main  id=PrincipalContenedor onclick="menucerrar()">
+            <section id=Contenedor>
+				<h1 id=PrimerTitulo class=EsTitulo>Informe</h1>
+				<article id=Grafico>
+					<h2 class=EsTitulo>Gráfico</h1>
+					<div class="ContenedorGrafico">
+						<div class="BarraEncuadre">
+							<div class = "percentil percentil90"></div>
+							<div class = "percentil percentil-"></div>
+							<div class = "percentil percentil80"></div>
+							<div class = "percentil percentil-"></div>
+							<div class = "percentil percentil60"></div>
+							<div class = "percentil percentil-"></div>
+						</div>             
+						<div class="BarraEncuadre">
+								<div class=percentil><div class = " percentil+"></div></div>
+								<div class=percentil><div class = " percentil50"></div></div>
+								<div class=percentil><div class = " percentil+"></div></div>
+								<div class=percentil><div class = " percentil20"></div></div>
+								<div class=percentil><div class = " percentil+"></div></div>
+								<div class=percentil><div class = " percentil40"></div></div>
+						</div>
+						<div class=TextoEncuadre>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Cs Exactas</p></div>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Salud</p></div>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Comunicacion</p></div>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Artes</p></div>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Judicial</p></div>
+							<div class=TextoGraficoContenedor><p class=TextoGrafico>Economicas</p></div>
+						</div>
+					</div>
+				</article>
+
+				<article id=informe>
+					<h3 class=EsTitulo>Informe escrito</h3>
+					<div class=TextoDimension>
+						<p class="EsTitulo">Ciencias Exactas</p>
+						<p class="EsParrafo">Jaimito presentaría gran interés en lo que respecta a las ciencias de caracter exacto,
+							como son la física, matemática, biología, química, astronomía. Los trabajos asociados a estos conocimientos 
+							suelen requerir de habilidades de tipo lógico-matemático. Asimismo, esta área tiene una fuerte relación con 
+							la profesión de investigador en las temáticas mencionadas.</p>
+							<a href="BuscarUniverisdades.html"><div class=BotonAmarillo><p id=BotonTestTexto>Buscar universidades</p></div></a>
+					</div>
+					<div class=TextoDimension>
+						<p class="EsTitulo">Ciencias Exactas</p>
+						<p class="EsParrafo">Jaimito presentaría gran interés en lo que respecta a las ciencias de caracter exacto,
+							como son la física, matemática, biología, química, astronomía. Los trabajos asociados a estos conocimientos 
+							suelen requerir de habilidades de tipo lógico-matemático. Asimismo, esta área tiene una fuerte relación con 
+							la profesión de investigador en las temáticas mencionadas.</p>
+							<a href="BuscarUniverisdades.html"><div class=BotonAmarillo><p id=BotonTestTexto>Buscar universidades</p></div></a>
+					</div>
+					<div class=TextoDimension>
+						<p class="EsTitulo">Ciencias Exactas</p>
+						<p class="EsParrafo">Jaimito presentaría gran interés en lo que respecta a las ciencias de caracter exacto,
+							como son la física, matemática, biología, química, astronomía. Los trabajos asociados a estos conocimientos 
+							suelen requerir de habilidades de tipo lógico-matemático. Asimismo, esta área tiene una fuerte relación con 
+							la profesión de investigador en las temáticas mencionadas.</p>
+							<a href="BuscarUniverisdades.html"><div class=BotonAmarillo><p id=BotonTestTexto>Buscar universidades</p></div></a>
+					</div>
+					<div class=TextoDimension>
+						<p class="EsTitulo">Ciencias Exactas</p>
+						<p class="EsParrafo">Jaimito presentaría gran interés en lo que respecta a las ciencias de caracter exacto,
+							como son la física, matemática, biología, química, astronomía. Los trabajos asociados a estos conocimientos 
+							suelen requerir de habilidades de tipo lógico-matemático. Asimismo, esta área tiene una fuerte relación con 
+							la profesión de investigador en las temáticas mencionadas.</p>
+							<a href="BuscarUniverisdades.html"><div class=BotonAmarillo><p id=BotonTestTexto>Buscar universidades</p></div></a>
+					</div>
+				</article>
+            </section>
+		</main>
+	</body>
+</html>

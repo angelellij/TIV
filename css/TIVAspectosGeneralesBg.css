@@ -1,5 +1,7 @@
 /*Aspectos Generales*/
 
+/*Marco pagina*/
+
 body{
 	width:100%;
 	margin:0px;
@@ -18,9 +20,12 @@ main{
 
 #PrincipalContenedor{
 	width: 800px;
-	margin:auto;}
+	margin:auto;
+	margin-bottom: 150px;}
 
-.Movil{display: none;}
+#Contenedor{
+	position: relative;
+	top:110px;}
 
 /*Tipografia*/
 
@@ -30,13 +35,16 @@ body{
 	color:#464010;}
 
 .EsParrafo{
-	text-indent: 50px;}
+	text-indent: 50px;
+	margin:15px 0px 15px 0px;}
 
 .EsTitulo{
-	margin: 0px;
 	text-indent:0px;
 	font-size: 35px;
 	color:#face54;}
+
+.EsFormTexto{
+	margin:10px 0px 10px 0px;}
 
 a{
 	text-decoration: none;
@@ -108,36 +116,20 @@ p{
 
 /*Fin Navegacion*/
 
-/*Inicio Pagina Sabana*/
+/*Inicio Inputs*/
 
-/*Recuadros*/
+.BotonAmarillo{
+	margin-right: 0px;
+	margin-left: auto;
+	padding:10px 10px 10px 10px;
+	border-radius: 14px;
+	background-color: #face54;
+	width: fit-content;}
 
-#RecuadrosSignIn{
-	position: relative;
-	padding-top: 20px;
-	top:75px;
-	height: 480px;
-	background-color: white;
-	border-radius: 20px;}
-
-.Columna{
-	display:inline-block;
-	width:200px;
-	padding:5px;
-	border-radius: 20px;}
-
-.ColumnaTexto{
-	margin-top: 0px;}
-
-.Columna1{
-	float: left}
-	.Columna2{
-		margin-left:10%;}
-		.Columna3{
-			float: right;}
-
-#ColumnaRegistro{
-	width:500px;}
+#BotonTestTexto{
+	font-weight: 500;
+	text-align: center;
+	color: white;}
 
 input{ 
 	font-size: 15px;
@@ -162,56 +154,24 @@ button{
 	border-radius: 4px;
 	border-color: lightgrey;}
 
-#PrimerFilaA{
-	margin-top:0px;}
+/*Fin Inputs*/
 
-.filaA{
-	height:60px;
-	margin-top:10px;}
+/*Inicio Columnas*/
 
-.filaB{
-	height:40px;
-	margin-top:5px;}
+	.Columna{
+		display: inline-grid;}
 
-.filaAEstudios{
-		height:40px;
-		margin-top:10px;}
-
-.filaBEstudios{
-	height: 100px;
-	margin-top: 0px;}
-
-.EsCorto{margin-top:25px;}
-
-.TipoCheckbox{
-	width:20px;
-	margin-left: 20px;
-	margin-right:10px;
-	margin-bottom:10px;}
-
-.ColumnaGeneroCheckbox{
-	display:inline-block;
-	width:450px;
-	padding:5px;
-	border-radius: 20px;}
-
-.CheckboxTexto{
-	display:inline-block;
-	margin-right:20px;
-	font-size: 18px;
-	font-weight:400;}
-
-.ColumnaA{
-	width:50%;
-	float:left;}
-	.ColumnaB{
-		width:50%;
-		Float:right;}
-
-.ColumnaEstudiosCheckbox{
-	display:inline-block;
-	width:800px;
-	padding:5px;
-	border-radius: 20px;}
-
-/*Fin Recuadros*/
+	.ColumnaA{
+		margin-left: 0px;
+		margin-right: auto;}
+		.ColumnaB{
+			margin-left: auto;
+			margin-right: auto;}
+			.ColumnaC{
+				float: right}
+	
+	.Columna1{width:99%;}
+		.Columna2{width:48%;}
+			.Columna31{width:32%;
+				margin-right: 1%;}
+				.Columna32{width:64%;}
