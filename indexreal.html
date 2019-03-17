@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+		<title> TIV </title>
+        <link  media='screen and (min-width: 800px)' rel="stylesheet" href="css/TIVEstiloHomeBg.css">
+        <link  media='screen and (max-width: 800px)' rel="stylesheet" href="css/TIVEstiloHomeS.css">
+        <script src="js/MenuMovil.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div id='NavegacionMovil'>
+				<div onclick="menucerrar()" id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+				<img onclick="menu()" id="NavegacionImagenMenu" src="img/menu.png"/>
+				<div onclick="menucerrar()" id='NavegacionBarra' class="closed">
+							<div class=divi></div>
+						<a class="NavegacionBoton" href="index.html"><p class='NavegacionTexto'>Incubate</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="SignIn.html"><p class='NavegacionTexto'>Realizar el test</p></a>
+						<div class=divitydiv><div class=divi></div></div>
+						<a class="NavegacionBoton" href="#Conocer"><p class='NavegacionTexto'>Conocer el test</p></a>
+							<div class=divi></div>
+				</div>
+			</div>
+			<div id='NavegacionPC'>
+					<div id=NavegacionLogoContenedor><p id=NavegacionLogoTexto>TIV</p></div>
+					<div>
+                        <a class="NavegacionBoton" href="#Conocer"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Conocer el test</p></div></a>
+                        <a class="NavegacionBoton" href="SignIn.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Realizar el test</p></div></a>
+                        <a class="NavegacionBoton" href="index.html"><div class=NavegacionBarraBoton><p class=NavegacionTexto>Incubate</p></div></a>
+					</div>
+			</div>
+		</header>
+
+		<main onclick="menucerrar()">
+		    <div id=Inicio>
+                <h1>Test de Intereses Vocacionales</h1>
+                <div id=InicioOpcionesContenedor>
+                    <a href="SignIn.html"><div id=InicioOpcionA class=InicioOpciones><p class=InicioOpcionesTexto>Ir al test</p></div></a>
+                   <a href='#Conocer'> <div id=InicioOpcionB class=InicioOpciones><p class=InicioOpcionesTexto>Conocer más</p></div></a>
+                </div>
+            </div>
+            <div id=PrincipalContenedor>
+                <br>
+                <br>
+                <section id=Conocer>
+                    <h2 class=EsTitulo>¿Qué es el Test de Intereses Vocacionales?</h2>
+                    <p class=EsParrafo>Es una tecnica psicológica validada cientificamente para ayudar a quien
+                        esta pensando realizar un estudio superior. El objetivo es que esta persona pueda
+                        conocer mejor sus intereses y asi elegir la carrera o área de conocimiento más
+                        idonea para desarrollarse personal y profesionalmente.
+                    </p>
+                </section>
+                <br>
+                <section id=Procedimiento>
+                    <h4 class=EsTitulo>Sin embargo...</h3>
+                    <p class=EsParrafo>Esta técnica podra orientarlo en su eleccion, pero de ninguna manera le indica que
+                        estudiar. La vocación es personal e intranseferible, y, por lo tanto, ningún test podrá
+                        elegir por usted. El objetivo de la técnica es ayudarlo a conocerse mejor y
+                        así encarar la elección profesional con mayores herramientas.</p>
+                    <br>
+                    <h5 class=EsTitulo>Procedimiento al hacer el test</h4>
+                    <div class=Fila3>
+                        <div id=ColumnaValidado class="Columna Columna1">
+                            <img class=ColumnaImagen src='img/contesta.png'>
+                            <p class=ColumnaTexto>Contesta los items</p>
+                            </div>
+                            <div id=ColumnaUtilizado class="Columna Columna2">
+                            <img class=ColumnaImagen src='img/recibe.png'>
+                            <p class=ColumnaTexto>Recibe los resultados</p>
+                            </div>
+                            <div id=ColumnaElegido class="Columna Columna3">
+                            <img class=ColumnaImagen src='img/busca.png'>
+                            <p class=ColumnaTexto>Busca universidades</p>
+                        </div>
+                    </div>
+                </section>
+
+                <br>
+
+                <section id=Investigacion>
+                    <h3 class=EsTitulo> Desarrollada por profesionales </h3>
+                    <p class=EsParrafo> El Test de Intereses Vocacionales fue creado y desarrollado por licenciados en psicología,
+                        cumpliendo con altos estándares de investigacion para asegurar la calidad del producto.                </p>
+                    <p class=EsParrafo>Podés consultar los estudios realizados en el siguiente link:</p>
+                    <br>
+                    <div class=Fila3>
+                        <div id=ColumnaValidado class="Columna Columna1">
+                            <img class=ColumnaImagen src='img/validada.png'>
+                            <p class=ColumnaTexto>Validada Cientificamente</p>
+                        </div>
+                        <div id=ColumnaUtilizado class="Columna Columna2">
+                            <img class=ColumnaImagen src='img/utilizada.png'>
+                            <p class=ColumnaTexto>Utilizada por Profesionales</p>
+                        </div>
+                        <div id=ColumnaElegido class="Columna Columna3">
+                            <img class=ColumnaImagen src='img/elegida.png'>
+                            <p class=ColumnaTexto>Elegida por Estudiantes</p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <br>
+            </div>
+		</main>
+
+	</body>
+
+
+</html>

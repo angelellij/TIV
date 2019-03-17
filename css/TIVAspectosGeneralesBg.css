@@ -46,6 +46,8 @@ body{
 .EsFormTexto{
 	margin:10px 0px 10px 0px;}
 
+.Centrar{text-align:center;}
+
 a{
 	text-decoration: none;
 	color:#464010;}
@@ -54,7 +56,7 @@ p{
 	font-weight: 200;
 	margin-top: 0px;
 	margin-bottom: 0px;}
-	
+
 /* Navegacion */
 
 	header{
@@ -94,7 +96,7 @@ p{
 	font-weight:lighter;
 	z-index:10;
 	margin:auto;
-	height:60px;}	
+	height:60px;}
 
 .NavegacionBoton{
 
@@ -131,7 +133,7 @@ p{
 	text-align: center;
 	color: white;}
 
-input{ 
+input{
 	font-size: 15px;
 	height:20px;
 	width:200px;
@@ -169,7 +171,7 @@ button{
 			margin-right: auto;}
 			.ColumnaC{
 				float: right}
-	
+
 	.Columna1{width:99%;}
 		.Columna2{width:48%;}
 			.Columna31{width:32%;

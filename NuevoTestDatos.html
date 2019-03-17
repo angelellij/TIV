@@ -10,8 +10,9 @@
         <script src="js/MenuMovil.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
         <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 	</head>
-	
+
 	<body>
 		<header>
 			<div id='NavegacionMovil'>
@@ -33,13 +34,13 @@
 					</div>
 			</div>
 		</header>
-        
+
         <!--Version PC-->
 
         <main  id=PrincipalContenedor onclick="menucerrar()">
             <section id=RecuadrosSignIn class=PC>
                         <h2 class=EsTitulo>Nuevo Test</h1>
-                        <form action=Cartas.html method="post">
+                        <form action=Cartas.html onsubmit="preventDefault()" method="post">
                             <div id=PrimerFilaA class=filaA>
                                 <div class="Columna Columna1 EsCorto">
                                     <p>Nombre de pila:</p>
@@ -48,7 +49,7 @@
                                     <p>Nacionalidad:</p>
                                 </div>
                                 <div class="Columna Columna3">
-                                    <p>Numero de documento</p>
+                                    <p>Número de documento</p>
                                 </div>
                             </div>
                             <div class=filaB>
@@ -79,7 +80,7 @@
                                     <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto>Femenino</p>
                                     <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto>Otro</p>
                                 </div>
-                                
+
                             </div>
                             <div class=filaAEstudios>
                                 <div class="Columna Columna1">
@@ -92,21 +93,18 @@
                                         <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando el secundario </p>
                                     </div>
                                     <div class=ColumnaB>
-                                        <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando el ultimo ano del secundario</p>
-                                    </div>
-                                    <div class=ColumnaA>
                                         <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando estudios superiores </p>
                                     </div>
-                                    <div class=ColumnaB>
+                                    <div class=ColumnaA>
                                         <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Con estudios superiores finalizados </p>
                                     </div>
-                                    <div class=ColumnaA>
+                                    <div class=ColumnaB>
                                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Otros </p>
                                     </div>
                                 </div>
                             </div>
-                            
-                            <button type="submit">Hacer el Test</button>
+
+                            <a href="Cartas.html"><button type="submit">Hacer el Test</button></a>
                         </form>
             </section>
 
@@ -114,13 +112,13 @@
 
             <section id=RecuadrosSignIn class=Movil>
                     <h2 class=EsTitulo>Nuevo Test</h1>
-                    <form action=php/Registrarse.php method="post">
+                    <form action=php/Registrarse.php onsubmit="preventDefault()" method="post">
                         <div id=FormularioDatosTests>
                             <p>Nombre de pila:</p>
                             <input type="text" placeholder="Nombre">
                             <p>Nacionalidad:</p>
                             <input type="text">
-                            <p>Numero de documento</p>
+                            <p>Número de documento</p>
                             <input type="number" value="37375072">
                             <p>Fecha de nacimiento:</p>
                             <input type="date">
@@ -130,12 +128,11 @@
                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto>Otro</p><br>
                             <p>Estudios</p>
                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando el secundario </p><br>
-                            <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando el ultimo ano del secundario</p><br>
                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Cursando estudios superiores </p><br>
                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Con estudios superiores finalizados </p><br>
                             <input class=TipoCheckbox type="checkbox"><p class=CheckboxTexto> Otros </p>
                         </div>
-                        <button type="submit">Hacer el Test</button>
+                        <a href="Cartas.html"><button type="submit">Hacer el Test</button></a>
                     </form>
         </section>
 		</main>

@@ -10,8 +10,9 @@
         <script src="js/MenuMovil.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
         <link rel="shortcut icon" type="image/x-icon" href="img/logotov.ico">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 	</head>
-	
+
 	<body>
 		<header>
 			<div id='NavegacionMovil'>
@@ -33,24 +34,24 @@
 					</div>
 			</div>
 		</header>
-        
+
         <main  id=PrincipalContenedor onclick="menucerrar()">
             <section id=Contenedor>
                 <div class="Columna ColumnaA Columna3">
                     <h1 id=PrimerTitulo class=EsTitulo>Sign In</h1>
-                    <form action=Sesion.html method="post">
+                    <form action=Sesion.html onsubmit="preventDefault()" method="post">
                         <div>
                             <p class=EsFormTexto>Usuario (e-mail):</p>
                             <input type="email" placeholder="direccion@mail.com">
                             <p class=EsFormTexto>Contraseña:</p>
                             <input type=password placeholder="********">
                         </div>
-                        <button type="submit">Entrar</button>
+                        <a href=Sesion.html><button type="submit">Entrar</button></a>
                     </form>
                 </div>
                 <div id=ColumnaRegistro class="Columna ColumnaC Columna32">
                         <h2 class=EsTitulo>Registrarse</h1>
-                        <form action=Sesion.html method="post">
+                        <form action=Sesion.html onsubmit="preventDefault()" method="post">
                             <div class="Columna ColumnaA Columna2">
                                 <p class=EsFormTexto>e-mail:</p>
                                 <input type="email" placeholder="direccion@mail.com">
@@ -63,7 +64,7 @@
                                 <p class=EsFormTexto>Repetir contraseña:</p>
                                 <input type="password" placeholder="********">
                             </div>
-                            <button type="submit">Registrarme</button>
+                            <a href=Sesion.html><button type="submit">Registrarme</button></a>
                         </form>
                     </div>
             </section>
