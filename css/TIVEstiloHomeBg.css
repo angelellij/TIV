@@ -23,6 +23,7 @@ body{
 	color:#464010;}
 
 .EsParrafo{
+	font-weight: 300;
 	text-indent: 50px;}
 
 .EsTitulo{
@@ -33,7 +34,7 @@ body{
 a{
 	text-decoration: none;
 	color:#464010;}
-	
+
 /* Navegacion */
 
 	header{
@@ -72,7 +73,7 @@ a{
 	font-weight:lighter;
 	z-index:10;
 	margin:auto;
-	height:60px;}	
+	height:60px;}
 
 .NavegacionBoton{
 
@@ -119,7 +120,7 @@ h1{
 	height:40px;
 	border-radius:35px;
 	background-color: #ffffff;}
-	
+
 #InicioOpcionA{
 	left:27%;}
 
